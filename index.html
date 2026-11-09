@@ -170,12 +170,12 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
       ["10", "Emergency procedures: summoning services, alarms, evacuation, escape routes, fire-fighting", 10], ["11", "First aid facilities and accident procedures", 10], ["12", "Staying alert to hazards across the workplace", 10],
       ["13", "Responsible people to report H&S matters to", 5], ["14", "Assessing risk and dynamic risk assessment", 8], ["15", "Protecting customers' property and reporting damage", 5]],
       "Web 1 H&S, Web 1 Legislation, Web 5 Gas Emergency, Web 5 Unsafe Situations", "01-04, 17-20",
-      ["PUWER (Provision and Use of Work Equipment Regulations 1998) came up and is easy to miss.", "Harder than the homework.", "Check your portal and email for venue or date changes before exam week: some classmates had sessions moved."]),
+      ["PUWER (Provision and Use of Work Equipment Regulations 1998) came up and is easy to miss.", "Harder than the homework.", "Check your portal and email for venue or date changes before exam week: some classmates had sessions moved.", "A classmate's first sitting (9 Nov) had many questions not in the webinars or books: CSCS card colours for each qualification level, the WEEE Regulations, the steps of a risk assessment, and what to record after a workplace accident (name, age, sex, injury, whether paramedics were called). Options were worded very alike, so read each slowly and pick the best fit.", "A second classmate (Bristol, 9 Nov) said H&S was mostly common sense: a few on confined spaces, working at height, who is responsible for a safe working space and fire extinguishers, and one asking what DRA stands for (dynamic risk assessment). The same classmate also had a RIDDOR question that was not about gas, so know RIDDOR in general (what is reportable) and not only for gas incidents."]),
     ex("PDH3 01A", "Electrical Control of Domestic Heating", "Mon", 10, 20, false, [], "~65%", [
       ["1", "Pre-installation activity before electrical work on heating", 60], ["3", "Finding and safely repairing faults", 10],
       ["4", "Safe installation, testing and decommissioning", 30]],
       "Web 6 Safety Devices and Central Heating, Web 8 Basic Electric + S and Y Plans", "21-24, 29-32",
-      ["Know the safe isolation procedure start to finish.", "Know what each wire does on a Y-plan 3-port valve.", "Classmates found the questions awkwardly worded, so know S-plan and Y-plan wiring properly."]),
+      ["Know the safe isolation procedure start to finish.", "Know what each wire does on a Y-plan 3-port valve.", "Classmates found the questions awkwardly worded, so know S-plan and Y-plan wiring properly.", "Reported 9 Nov (Bristol, only 10 questions): fuse sizes; what cable size to use on a fused spur / a 32 A ring circuit; what resistance you expect when checking continuity on a boiler fan; and what happens if a conductor is loose in a terminal. The question wording is as the classmate remembered it, so check the answers against your electrics handout."]),
     ex("DGU3 1.5A", "WRAS (Water Regs) A", "Tue", 30, 50, true, WRAS, "80%", [
       ["1", "The regulations and byelaws", 10], ["2", "Terminology", 7], ["3", "Materials in contact with water", 10],
       ["4", "Water fittings requirements", 33], ["5", "Design and installation of supply systems", 33],
@@ -916,6 +916,18 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
     [HS, "A customer's CO alarm is sounding. What do you tell them?", "Turn off appliances, ventilate and leave the property; a competent engineer must investigate.", "handout", R(CB, 60)],
     [HS, "Called to a gas incident where someone died or was badly hurt?", "Don't disturb the scene, call the gas emergency number, isolate and ventilate only if safe, record what you do and help the investigators.", "handout", R(EM, 38)],
     [HS, "CoSHH: what must employers do?", "Assess the risk from hazardous substances, tell and train staff, minimise the risk and make sure controls such as PPE are used.", "handout", R(L, 33)],
+    // Public guidance read on 9 Nov 2026 (source "web"): hse.gov.uk, gov.uk, cscs.uk.com. Chat-reported exam topics, not Access material.
+    [HS, "What are the five steps of a risk assessment?", "HSE's website now words them: 1 Identify hazards, 2 Assess the risks (who might be harmed and how), 3 Control the risks, 4 Record your findings, 5 Review the controls. The older HSE leaflet 'Five steps to risk assessment' (cover shown in the handout) words them: identify the hazards, decide who might be harmed and how, evaluate the risks and decide on precautions, record your findings and implement them, review and update if necessary. Same five ideas.", "web", R(H, 19)],
+    [HS, "Which employers must write down their risk assessment findings?", "Those with 5 or more employees must record their significant findings: the hazards, who might be harmed and how, and what they are doing to control the risks.", "web", []],
+    [HS, "Which employers must keep an accident book?", "HSE: employers with more than 10 employees must keep one under social security law. They can buy the HSE accident book or record the details in their own system, and must keep personal details confidential and secure.", "web", []],
+    [HS, "What must a RIDDOR record contain if you don't keep a copy of the online report?", "The date and method of reporting; the date, time and place of the event; personal details of those involved; and a brief description of the nature of the event or disease. (HSE's pages do not list the exact fields of an accident book entry, so a classmate's four option lists could not be checked.)", "web", []],
+    [HS, "What does WEEE stand for, and what are the WEEE Regulations 2013 for?", "Waste Electrical and Electronic Equipment. The regulations (as amended) aim to reduce the amount of WEEE burned or sent to landfill by encouraging recovery, reuse and recycling. They cover electrical and electronic equipment in 15 broad categories.", "web", []],
+    [HS, "Who has duties under the WEEE Regulations?", "Producers (register each year, join a compliance scheme above 5 tonnes, mark products with the crossed-out wheeled bin) and distributors including retailers (offer free take-back of old like-for-like household equipment when selling a new one, and keep records for at least four years). GOV.UK's guidance does not set out a separate duty for installers.", "web", []],
+    [HS, "CSCS Blue Skilled Worker card: who is it for?", "People with a construction related NVQ/SVQ level 2, an apprenticeship or other approved qualifications. Valid five years.", "web", []],
+    [HS, "CSCS Gold Skilled Worker card: who is it for?", "People with an NVQ/SVQ level 3, an apprenticeship or other industry-approved qualifications.", "web", []],
+    [HS, "CSCS Supervisory and Manager cards: what qualification?", "Supervisory: NVQ/SVQ level 3 or 4 (supervisor and technical occupations). Manager: NVQ/SVQ level 4, 5, 6 or 7 (managerial and technical occupations).", "web", []],
+    [HS, "CSCS Labourer card: who can hold it?", "Only people doing labouring duties. Skilled workers holding a Labourer card will be refused site access. The first card lasts two years.", "web", []],
+    [HS, "Which colours do CSCS cards come in?", "On cscs.uk.com only two card names contain a colour: Blue Skilled Worker (NVQ level 2) and Gold Skilled Worker (NVQ level 3). Training sites also quote Green for Labourer, Red for trainee or temporary cards, Black for Manager and White for professionally or academically qualified, but CSCS's own pages do not state these, so treat them as unconfirmed.", "web", []],
 
     // ================= DSG3 11A Electrical Faults =================
     [EF, "Electrical Faults exam: questions and time?", "20 questions in 30 minutes, closed book. Test equipment is the biggest area (20%).", "official", R(EG, 1).concat(R(EB, 5))],
@@ -944,6 +956,14 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
     [EC, "A 3 A fuse feeds a 230 V boiler. Minimum resistance of its components?", "R = V ÷ I = 230 ÷ 3 ≈ 77 Ω.", "handout", R(BE, 9)],
     [EC, "Current drawn by a 2.5 kW kettle on 230 V?", "I = P ÷ V = 2500 ÷ 230 ≈ 10.9 A, so a 13 A fuse.", "handout", R(BE, 11)],
     [EC, "Which plug or spur fuse for which appliance?", "BS 1362 fuses: 3 A up to 750 W (most boilers), 13 A above. 750 W is the handout's figure; some guides say 700 W.", "handout", R(BE, 14)],
+    // Electrics cards from public guidance read on 9 Nov 2026 (source "web"); a classmate reported these topics in the Bristol Electrical Controls exam.
+    [EC, "What cable is used on a 32 A ring final circuit of sockets?", "2.5 mm² twin and earth (the usual size, and the one your tutor quoted). The ring runs line, neutral and earth out and back to the consumer unit.", "web", []],
+    [EC, "Unfused spur from a ring circuit: cable size and how much can it supply?", "2.5 mm² cable. An unfused spur can feed only one single or one twin socket, or one item of fixed equipment (BS 7671 Appendix 15, as summarised by training sites).", "web", []],
+    [EC, "Fused spur (through a fused connection unit): can the cable be smaller than 2.5 mm²?", "Sources disagree. Some say 1.5 mm² is acceptable after a fuse of 13 A or less, depending on how the cable is run; others say keep 2.5 mm² as the safe default. If an exam gives only 2.5 mm² and 1.5 mm² as options, 2.5 mm² is the safe answer. Check Appendix 15 of the On-Site Guide.", "web", []],
+    [EC, "What happens if a conductor is loose in a terminal?", "The connection has higher resistance, so it heats up (P = I² × R) and can arc. That can damage the terminal and insulation and start a fire. Fuses and MCBs may not notice it. Both line and neutral must be tight. BS 7671 reg. 526.1: every connection must give durable electrical continuity and adequate mechanical strength.", "web", []],
+    [EC, "Example: how much heat from a bad connection of 2 Ω carrying 30 A?", "P = I² × R = 30² × 2 = 1,800 W at one terminal. NICEIC uses this example and calls it potentially dangerous.", "web", []],
+    [EC, "Checking a boiler fan motor winding with a multimeter on ohms: what do you expect?", "No single value, it depends on the fan (check the maker's data). A healthy winding gives a low but readable resistance. OL means an open circuit (broken winding). A reading of nearly 0 Ω (about the lead resistance) suggests a short. The last two points follow from how the meter works rather than a boiler maker's data. Isolate and disconnect the fan first.", "web", []],
+    [EC, "Common BS 1362 plug fuse ratings and colours?", "Sold as 1, 2, 3, 5, 7, 10 and 13 A. 3 A is red and 13 A is brown; the rest are black. Always use the rating on the appliance's data badge.", "web", []],
     [EC, "At what earth leakage does a domestic RCD trip?", "30 mA.", "handout", R(BE, 70)],
     [EC, "MCB vs RCBO?", "An MCB protects against overcurrent. An RCBO protects against both overcurrent and earth leakage.", "handout", R(BE, 72, 73)],
     [EC, "How is a boiler's electrical supply isolated?", "A double-pole fused switch (normally 3 A), or a plug in an unswitched socket.", "handout", R(CH, 71)],
@@ -2274,7 +2294,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 </script>
 <script>globalThis.GR = globalThis.GR || {};
 (function (GR) {
-  var SOURCES = ["book", "handout", "official", "group"];
+  var SOURCES = ["book", "handout", "official", "group", "web"];
   // Returns a list of problems in the data (GR by default, or a copy passed in); empty means valid.
   GR.check = function (D) {
     D = D || GR;
@@ -2309,7 +2329,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
         else if (!e.outcomes.some(function (o) { return o.lo === c.lo; })) bad.push(i.id + ": covers unknown outcome " + c.exam + " LO" + c.lo);
         else if (i.exams.indexOf(c.exam) < 0) bad.push(i.id + ": covers " + c.exam + " but it is not in exams");
       });
-      refs(i.id, i, i.source === "group");
+      refs(i.id, i, i.source === "group" || i.source === "web");
     });
     var qs = {};
     D.CARDS.forEach(function (c) {
@@ -2317,7 +2337,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
       if (qs[c[1]]) bad.push("duplicate card question " + c[1]);
       qs[c[1]] = 1;
       if (!codes[c[0]]) bad.push(label + ": unknown exam " + c[0]);
-      refs(label, { source: c[3], refs: c[4] }, c[3] === "group");
+      refs(label, { source: c[3], refs: c[4] }, c[3] === "group" || c[3] === "web");
     });
     return bad;
   };
@@ -2543,7 +2563,7 @@ globalThis.GR = globalThis.GR || {};
   var TAB_KEY = (GR.STORE || "gasRevise") + "-tab";
   var HW = ["Health & Safety", "Legislation", "Combustion", "Pipework", "Ventilation", "Chimneys", "Controls", "Basic Electrics Wiring Test", "Central Heating and Hot Water Test", "Homework 1", "Homework 2"];
   var STEPS = ["1 Induction", "2 Webinars", "3 Homework", "4 Formal theory exams (9)", "5 Practical training", "6 Practical assessment (bring a laptop)", "7 Gas portfolio → Gas Safe"];
-  var BADGES = { official: "Official", handout: "Access handout", book: "Book", group: "Classmates · unofficial", mine: "Your card" };
+  var BADGES = { official: "Official", handout: "Access handout", book: "Book", group: "Classmates · unofficial", web: "HSE / GOV.UK / CSCS site, checked 9 Nov 2026", mine: "Your card" };
   var KNOWN = 3;
   var U = GR.ui = { HW: HW, KNOWN: KNOWN, loaded: {}, tabs: {}, rev: {} };
 
